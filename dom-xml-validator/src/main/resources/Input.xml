@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GetExample>
+	<Id>tools</Id>
+	<Enote>Testing the API</Enote>
+	<RecordRequest>
+		<RequestId>0</RequestId>
+		<Identity>
+			<AcctIdType>3</AcctIdType>
+			<Id>test_id</Id>
+		</Identity>
+		<Code>31</Code>
+		<Code1>12534</Code1>
+		<Memo>Test Memo</Memo>
+	</RecordRequest>
+</GetExample>

@@ -1,0 +1,29 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="GetExample">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Id" type="xs:string"></xs:element>
+				<xs:element name="Enote" type="xs:string"></xs:element>
+				<xs:element name="RecordRequest">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RequestId" type="xs:int"></xs:element>
+							<xs:element name="Identity">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="AcctIdType" type="xs:int"></xs:element>
+										<xs:element name="Id" type="xs:string"></xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Code" type="xs:int"></xs:element>
+							<xs:element name="Code1" type="xs:int"></xs:element>
+							<xs:element name="Memo" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
