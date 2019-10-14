@@ -1,0 +1,24 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+    <servlet>
+        <servlet-name>longRunningTask</servlet-name>
+        <servlet-class>com.dhana.exercise.servlet.session.LongRunningTask</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>longRunningTask</servlet-name>
+        <url-pattern>/task</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sessionManager</servlet-name>
+        <servlet-class>com.dhana.exercise.servlet.session.SessionManager</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sessionManager</servlet-name>
+        <url-pattern>/session</url-pattern>
+    </servlet-mapping>
+
+</web-app>
