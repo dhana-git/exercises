@@ -5,7 +5,7 @@
          version="3.0">
     <servlet>
         <servlet-name>longRunningTask</servlet-name>
-        <servlet-class>com.dhana.exercise.servlet.session.LongRunningTask</servlet-class>
+        <servlet-class>com.ajs.exercise.servlet.session.LongRunningTask</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>longRunningTask</servlet-name>
@@ -14,7 +14,7 @@
 
     <servlet>
         <servlet-name>sessionManager</servlet-name>
-        <servlet-class>com.dhana.exercise.servlet.session.SessionManager</servlet-class>
+        <servlet-class>com.ajs.exercise.servlet.session.SessionManager</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>sessionManager</servlet-name>
